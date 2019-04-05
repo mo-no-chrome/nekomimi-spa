@@ -1,0 +1,4 @@
+{
+  "/search\\?*q=:q&*": "/search/:q",
+  "/videos\\?*id=:id&*": "/videos/:id"
+}

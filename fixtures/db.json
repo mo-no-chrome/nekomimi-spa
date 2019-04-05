@@ -1,0 +1,50 @@
+{
+  "search": [
+    {
+      "id": "test",
+      "items": [
+        {
+          "etag": "etag",
+          "id": {
+            "videoId": "1"
+          },
+          "snippet": {
+            "title": "hoge",
+            "description": "hogehogefugafuga",
+            "thumbnails": {
+              "default": {
+                "url": "url",
+                "width": 120,
+                "height": 90
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "noitems",
+      "items": []
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "items": [
+        {
+          "snippet": {
+            "title": "hoge",
+            "description": "hogehogefugafuga"
+          },
+          "player": {
+            "embedHtml": "<div>player</div>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "items": []
+    }
+  ]
+}
