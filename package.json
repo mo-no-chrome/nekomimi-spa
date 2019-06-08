@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "serve:dev": "react-scripts start",
     "serve:api": "json-server --delay 500 --port 3001 --routes fixtures/routes.json --watch fixtures/db.json",
-    "lint:js": "eslint './src/*.{ts,tsx}'"
+    "lint:js": "eslint './src/**/*.{ts,tsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
